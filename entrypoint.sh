@@ -1,5 +1,5 @@
 !#/bin/zsh
-
+#TODO use rogue_secrets from rogueos
 function rogue_secrets {
 	bw logout
 	while [ -z "$BW_SESSION" ]; do
